@@ -10,6 +10,8 @@ then
     echo "Your Number is Greater Than 100"
     echo
     date
+else
+    echo "You have entered number less than 100"
 fi
 
 echo "Script Execution Completed Successfully"
