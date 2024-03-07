@@ -2,7 +2,7 @@
 
 echo "######################################################################"
 date
-ls /var/run/httpd/httpd.pid > /dev/null
+ls /var/run/httpd/httpd.pid &> /dev/null
 
 if [ $? -eq 0 ]
 then
